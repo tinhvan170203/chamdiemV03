@@ -435,7 +435,8 @@ module.exports = {
       if(taikhoancap === "Cấp Bộ"){
         return res.status(200).json([
           "Các đơn vị thuộc cơ quan Bộ có chức năng giải quyết TTHC cho cá nhân, tổ chức",
-          "Các đơn vị thuộc cơ quan Bộ không có chức năng giải quyết TTHC cho cá nhân, tổ chức"
+          "Các đơn vị thuộc cơ quan Bộ không có chức năng giải quyết TTHC cho cá nhân, tổ chức",
+          "Cấp Tỉnh",
         ])
       }else if(taikhoancap === "Cấp Tỉnh"){
         return res.status(200).json([
